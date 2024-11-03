@@ -1,0 +1,123 @@
+*{
+
+    
+    box-sizing: border-box;
+    }
+
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/Kanit-Medium.ttf), url(../fonts/Kanit-Regular.ttf);
+}
+
+.mainbody {
+width: 100%;
+height: 100%;
+background-image: url(../image/fill-circle.png), url(../image/outlin-cricle.png), linear-gradient(173deg, rgba(225,231,243,1) 0%, rgba(192,207,230,1) 80%);
+background-position: bottom left, top right;
+background-repeat: no-repeat, no-repeat;
+background-size:auto, auto;
+
+
+}
+
+
+
+.logo-side {
+    
+border-radius: 23px;
+background: linear-gradient(180deg, #7345F6 0%, #A72BF2 100%);
+background-image: url(../image/side-bar-bg.jpg);
+background-position: top left;
+background-repeat: no-repeat;
+background-size:cover;
+height: 862px;
+
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+
+
+
+
+
+
+
+}
+
+.logo-side img{
+margin-left: 20px;
+margin-top: 20px;
+
+}
+
+.form-right{
+
+    border-radius: 23px;
+    background: linear-gradient(106deg, rgba(255, 255, 255, 0.50) -1.75%, rgba(255, 255, 255, 0.50) 100.49%);
+    box-shadow: 14px 27px 45px 0px rgba(112, 144, 176, 0.05);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+
+.welcome-text h1 {
+
+    font-family: "Kanit", sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+    color: white;   
+   
+}
+
+.logo-side p{
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    padding-bottom: 30px;
+
+}
+/* .logo{
+
+    margin-bottom: 540px;
+} */
+
+.login-bt{
+border-radius: 45px;
+background: linear-gradient(15deg, #4A25E1 26.3%, #7B5AFF 86.4%);
+box-shadow: 0px 21px 27px -10px rgba(96, 60, 255, 0.48);
+width: 150px;
+height: 5;
+
+}
+
+.form-label{
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+   
+
+
+}
+
+.formheading h1{
+
+    font-family: "Kanit", sans-serif;
+    color: 383838;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+   
+
+}
+
+.forttext{
+    text-align: right;
+}

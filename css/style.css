@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: Kanit;
-    src: url(../fonts/Kanit-Medium.ttf), url(../fonts/Kanit-Regular.ttf);
+    src: url(../fonts/Kanit-Medium.woff2), url(../fonts/Kanit-Regular.woff2);
 }
 
 .mainbody {
